@@ -137,13 +137,6 @@ img {
   width: 600px;
 }
 
-#contact {
-  background-image: url("iticons.gif");
-  background-color: rgb(216, 216, 211);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
 footer {
     bottom: 0%;
     width: 100%;
@@ -151,5 +144,57 @@ footer {
     color: rgb(216, 216, 211);
     overflow: hidden;
     z-index: 1000;
+}
+
+@media only screen and (max-width: 800px){
+    h3 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      
+    }
+    p {
+      font-size: 20px;
+    }
+    span {
+      font-size: 30px;
+    }
+    #introduction, #projects, #about-me {
+      padding: 25px 50px 25px 50px;
+      margin: 15px 30px 15px 30px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+  h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  p {
+    font-size: 15px;
+  }
+  span {
+    font-size: 22,5px;
+  }
+  #introduction, #projects, #about-me {
+    padding: 15px 40px 15px 40px;
+    margin: 5px 20px 5px 20px;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 10px;
+  }
+  span {
+    font-size: 20px;
+  }
+  #introduction, #projects, #about-me {
+    padding: 10px 30px 10px 30px;
+    margin: 2,5px 10px 2,5px 10px;
+  }
 }
 
